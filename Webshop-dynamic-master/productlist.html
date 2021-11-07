@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productlist</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="#" />
+  </head>
+  <body>
+    <header class="mainNav">
+      <h1>Online shop</h1>
+      <nav>
+        <a href="index.html">Categories</a>
+        <a href="#">Brands</a>
+        <a href="#">Seasons</a>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrumbs">
+        <li><a class="categories" href="index.html">Categories</a></li>
+        <li class="categoryName"></li>
+      </ul>
+      <div class="productlist">
+        <template id="productlistTemplate">
+          <article class="smallProduct">
+            <a href="product.html">
+              <img class="productlistImage" src="#" alt="#" />
+            </a>
+            <div class="discounted">
+              <p></p>
+            </div>
+            <h3></h3>
+            <p class="subtle"></p>
+            <p>
+              <span class="discounted"></span> &nbsp;
+              <span class="price"></span>
+            </p>
+          </article>
+        </template>
+      </div>
+    </main>
+    <footer>
+      <div>
+        This website was created by Diana Priediena as part of the course
+        "Dynamic Web" at KEA in 2021. Images, text and other data were taken
+        from
+        <a
+          href=" https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset"
+          target="_blank"
+          >Kaggle.com
+        </a>
+      </div>
+    </footer>
+    <script src="js/productlist.js"></script>
+  </body>
+</html>
