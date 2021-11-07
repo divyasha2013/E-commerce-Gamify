@@ -31,7 +31,7 @@ function showProduct(product) {
   document.querySelector(
     ".purchaseBox p"
   ).textContent = `${product.category} / ${product.articletype}`;
-  document.querySelector(".price").textContent = `DKK ${product.price},-`;
+  document.querySelector(".price").textContent = `INR ${product.price}/-`;
 
   if (product.soldout) {
     document.querySelector(".purchaseBox p").classList.add("soldProduct");
@@ -41,9 +41,9 @@ function showProduct(product) {
 
   if (product.discount) {
     document.querySelector(".purchaseBox").classList.add("onSale");
-    document.querySelector("span.discounted").textContent = `DKK ${Math.round(
+    document.querySelector("span.discounted").textContent = `INR ${Math.round(
       product.price - (product.price * product.discount) / 100
-    )},-`;
+    )}/-`;
   }
 
   document.querySelector("dd").textContent = product.season;

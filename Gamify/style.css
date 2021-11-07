@@ -60,9 +60,10 @@ h2 {
 }
 #name{
   font-family: 'Sacramento', cursive;
-  font-size: 60px;
+  font-size: 90px;
   padding-bottom: 9px;
   font-weight:bold;
+  color: #073664;
 }
 h3,
 h4 {

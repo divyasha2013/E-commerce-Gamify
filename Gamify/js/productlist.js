@@ -32,10 +32,10 @@ function showProduct(product) {
   clone.querySelector("img.productlistImage").alt = product.productdisplayname;
 
   clone.querySelector("h3").textContent = product.productdisplayname;
-  clone.querySelector(".price").textContent = `DKK ${product.price},-`;
-  clone.querySelector("span.discounted").textContent = `DKK ${Math.round(
+  clone.querySelector(".price").textContent = `INR ${product.price}/-`;
+  clone.querySelector("span.discounted").textContent = `INR ${Math.round(
     product.price - (product.price * product.discount) / 100
-  )},-`;
+  )}/-`;
   clone.querySelector(".discounted p").textContent = `-${product.discount}%`;
   clone.querySelector("a").href = `product.html?id=${product.id}`;
 
