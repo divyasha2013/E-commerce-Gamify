@@ -4,13 +4,19 @@
 body {
   background-color: #f7f7f7;
   color: #073664;
-  font-family: "Assistant", sans-serif;
+  font-family: "Gabriola", sans-serif;
   margin: 0;
 }
-.mainNav {
-  text-align: center;
-  background-color: #373d48;
-  color: #f7f7f7;
+
+#brand {
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  font-weight: 150
+}
+
+.section {
+  font-family: 'Zen Antique Soft', serif;
+  font-size: 20px;
 }
 a {
   color: #a1a1a1;
@@ -40,6 +46,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Abril Fatface', cursive;
 }
 h1 {
   font-family: "Montez", cursive;
@@ -50,6 +57,12 @@ h2 {
   font-size: 7vw;
   margin-top: 0;
   margin-bottom: 0.5em;
+}
+#name{
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  padding-bottom: 9px;
+  font-weight:bold;
 }
 h3,
 h4 {
@@ -72,13 +85,15 @@ dt {
   display: inline-block;
   color: #073664;
   font-weight: bold;
-  border: 2px solid white;
-  background-color: rgba(255, 255, 255, 0.404);
+  border-radius: 20px ;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.493);
   padding: 0.4em 5em;
   transition-duration: 0.2s;
 }
 .category a:hover {
   background-color: rgba(255, 255, 255, 0.842);
+  color: green;
 }
 .breadcrumbs {
   list-style-type: none;
