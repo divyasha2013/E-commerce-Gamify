@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -47,9 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
 #container{
     position: absolute;
     margin:auto;
@@ -65,22 +63,13 @@ table {
     left:100px;
     right: 100px;
     background-color: rebeccapurple;
-    background-image: url("dressUpImg/resized_background.png");
-    
-    
-    
-    
+    background-image: url("dressUpImg/resized_background.png"); 
 }
 
 #hairback{
      position:absolute;
     width:555px;
-    height:987px;
-    
-    
-  
-    
-    
+    height:987px; 
 }
 
 .hairback{
@@ -88,48 +77,32 @@ table {
     width:555px;
     height:987px;
     background-image: url("dressUpImg/hairback.png");
-    
 }
 #man{
     position:absolute;
     width:555px;
     height:987px;
-    
-    
     background-image: url("dressUpImg/body.png");
-    
-    
-    
- 
 }
 
 #shoes{
      position:absolute;
     width:555px;
-    height:987px;
-    
-    
-    
-    
+    height:987px;  
 }
 
 .shoe1{
      position:absolute;
     width:555px;
     height:987px;
-    background-image: url(dressUpImg/shoe1.png);
-    
-    
-    
-    
+    background-image: url(dressUpImg/shoe1.png);   
 }
 
 .shoe2{
     position:absolute;
     width:555px;
     height:987px;
-    background-image: url(dressUpImg/shoe2.png);
-    
+    background-image: url(dressUpImg/shoe2.png);  
 }
 
 .shoe3{
@@ -140,18 +113,12 @@ table {
 }
 
 #clothes{
-    
-     position:absolute;
+    position:absolute;
     width:555px;
-    height:987px;
-    
-    
-    
-    
+    height:987px;   
 }
 
 .dress1{
-    
     position:absolute;
     width:555px;
     height:987px;
@@ -159,7 +126,6 @@ table {
 }
 
 .dress2{
-    
     position:absolute;
     width:555px;
     height:987px;
@@ -167,7 +133,6 @@ table {
 }
 
 .dress3{
-    
     position:absolute;
     width:555px;
     height:987px;
@@ -178,16 +143,10 @@ table {
 #hairfront{
      position:absolute;
     width:555px;
-    height:987px;
-    
-    
-    
-    
-    
+    height:987px;   
 }
 
 .hairfront1{
-    
     position:absolute;
     width:555px;
     height:987px;
@@ -195,7 +154,6 @@ table {
 }
 
 .hairfront2{
-    
     position:absolute;
     width:555px;
     height:987px;
@@ -203,7 +161,6 @@ table {
 }
 
 .hairfront3{
-    
     position:absolute;
     width:555px;
     height:987px;
