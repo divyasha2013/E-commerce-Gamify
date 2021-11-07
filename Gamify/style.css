@@ -6,11 +6,9 @@ body {
   color: #073664;
   font-family: "Gabriola", sans-serif;
   margin: 0;
-}
-
-.grid {
   padding-top: 50px;
 }
+
 #brand {
   font-family: 'Cookie', cursive;
   font-size: 30px;
@@ -63,7 +61,7 @@ h2 {
 }
 #name{
   font-family: 'Sacramento', cursive;
-  font-size: 90px;
+  font-size: 2.8em;
   padding-bottom: 9px;
   font-weight:bold;
   color: #073664;
@@ -211,6 +209,9 @@ span.discounted {
   }
   .categoryGroup a {
     font-size: 1.4em;
+  }
+  #name{
+    font-size: 90px;
   }
   .product {
     grid-template-columns: 1fr 1fr;
