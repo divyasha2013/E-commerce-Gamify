@@ -8,6 +8,9 @@ body {
   margin: 0;
 }
 
+.grid {
+  padding-top: 50px;
+}
 #brand {
   font-family: 'Cookie', cursive;
   font-size: 30px;
