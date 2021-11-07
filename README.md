@@ -1,1 +1,1 @@
-# E-commerce-Gamify
+# Myntra-Gamify
